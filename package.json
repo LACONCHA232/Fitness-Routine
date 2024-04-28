@@ -1,0 +1,16 @@
+{
+  "name": "fitness-routine",
+  "version": "1.0.0",
+  "description": "Web Page with a lot of widgets and tools to do your Daily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "bootstrap"
+  ],
+  "author": "Diego Diaz De La Concha <diegodiazdelaconcha93@gmail.com>",
+  "license": ""
+}
