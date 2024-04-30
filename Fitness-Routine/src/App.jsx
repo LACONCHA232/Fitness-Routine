@@ -1,16 +1,21 @@
-import './App.css'
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import About from './components/about/About'
-import Home from './components/home/Home'
-import Header from './components/header/Header'
+import Header from './components/header/Header';
+import Welcome from './components/main/welcome/Welcome';
 
 function App() {
   return (
     <>
-      <div>
-        <Header/>
-        <Home/>
-        <About/>
+      <div className='container-all'>
+        <header>
+            <Header/>
+          </header>
+          <main>
+            <Welcome/>
+          </main>
+          <footer>
+            
+          </footer>
       </div>
     </>
   )
